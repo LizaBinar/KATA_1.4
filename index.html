@@ -69,13 +69,29 @@
             </nav>
             <p class="contacts__main">mail@cps.com</p>
             <h3>8 800 890 8900</h3>
-            <nav class="contacts__language">
-                <ul class="contacts__language-list">
-                    <li><a class="contacts__language-link" href="#">RU</a></li>
-                    <li><a class="contacts__language-link" href="#">EN</a></li>
-                    <li><a class="contacts__language-link" href="#">CH</a></li>
-                </ul>
-            </nav>
+            <div class="contacts__language">
+                <form>
+                    <div class="contacts__language-list">
+                        <div class="contacts__language-button">
+                            <input type="radio" id="contactChoice1"
+                                   name="language" value="RU">
+                            <label for="contactChoice1">RU</label>
+                        </div>
+
+                        <div class="contacts__language-button">
+                            <input type="radio" id="contactChoice2"
+                                   name="language" value="EN">
+                            <label for="contactChoice2">EN</label>
+                        </div>
+
+                        <div class="contacts__language-button">
+                            <input type="radio" id="contactChoice3"
+                                   name="language" value="CH">
+                            <label for="contactChoice3">CH</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </section>
     </section>
 
