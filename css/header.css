@@ -1,0 +1,14 @@
+.header {
+    padding: 20px;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__logo {
+    width: 100%;
+}
