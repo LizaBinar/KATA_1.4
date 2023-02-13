@@ -56,6 +56,18 @@
     padding-top: 30px;
 }
 
-.contacts__language-link:focus {
+.contacts__language-button input[type=radio] {
+    display: none;
+}
+
+.contacts__language-button label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Checked */
+.contacts__language-button input[type=radio]:checked + label {
     color: #7d7d81;
 }
+
